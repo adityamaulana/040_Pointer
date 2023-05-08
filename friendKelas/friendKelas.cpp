@@ -16,8 +16,8 @@ class orang
         friend class siswa;
 };
 
-int main()
+class siswa 
 {
-    std::cout << "Hello World!\n";
-}
-
+    private:
+        int id;
+};
