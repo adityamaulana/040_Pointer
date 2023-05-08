@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Siswa;
+class siswa;
 
 class orang
 
@@ -26,8 +26,28 @@ class siswa
         void displayAll(orang &a);
 };
 
-void siswa::setId(int pId) 
+void siswa::displayAll(orang& a) 
+
+{
+    cout << id << endl << a.nama;
+}
+
+void orang::setNama(string pNama) 
+
+{
+    nama = pNama;
+}
+
+void siswa::setId(int pId)
 
 {
     id = pId;
+}
+
+int main()
+{
+    orang osamabinladen;
+    osamabinladen.setNama(" Osama Bin Laden");
+    siswa osamabinladen_siswa;
+
 }
