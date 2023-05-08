@@ -49,5 +49,9 @@ int main()
     orang osamabinladen;
     osamabinladen.setNama(" Osama Bin Laden");
     siswa osamabinladen_siswa;
+    osamabinladen_siswa.setId(1);
+    osamabinladen_siswa.displayAll(osamabinladen);
+
+    return 0;
 
 }
